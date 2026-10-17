@@ -1,0 +1,8 @@
+*.pak
+*.zip
+*.crx
+__pycache__/
+*.pyc
+.codebuddy/
+.DS_Store
+Thumbs.db

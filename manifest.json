@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Berry Cream Theme",
+  "version": "1.0.0",
+  "description": "A refined Chrome theme in dusty berry, rose cream, and soft blush, with gentle contrast for calm everyday browsing.",
+  "icons": {"128": "logo/logo128.png"},
+  "theme": {
+    "colors": {
+      "frame": [194, 166, 180],
+      "frame_inactive": [194, 166, 180],
+      "toolbar": [243, 229, 234],
+      "tab_background_text": [70, 57, 66],
+      "tab_background_text_inactive": [70, 57, 66],
+      "tab_text": [74, 61, 70],
+      "bookmark_text": [74, 61, 70],
+      "toolbar_text": [74, 61, 70],
+      "toolbar_button_icon": [74, 61, 70],
+      "omnibox_background": [255, 251, 252],
+      "omnibox_text": [74, 61, 70],
+      "ntp_background": [250, 246, 247],
+      "ntp_text": [74, 61, 70],
+      "ntp_link": [128, 92, 115],
+      "ntp_header": [128, 92, 115],
+      "button_background": [194, 166, 180]
+    },
+    "properties": {"ntp_logo_alternate": 1}
+  }
+}

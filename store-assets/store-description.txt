@@ -1,0 +1,17 @@
+NAME
+Berry Cream Theme
+
+SUMMARY
+A refined Chrome theme in dusty berry, rose cream, and soft blush, with gentle contrast for calm everyday browsing.
+
+DESCRIPTION
+Berry Cream Theme brings a soft berry touch to Chrome. A dusty berry-pink frame pairs with a rose-cream toolbar and active tab, while a pale blush new tab page keeps your browsing space light and calm. Muted plum text and icons keep the interface clear and easy to read.
+
+The flat berry icon follows the same restrained rose palette. Solid colors throughout, with no wallpaper, no extra scripts, and no permissions required.
+
+PROMO
+A soft berry touch for every tab.
+
+MARQUEE
+Dusty berry. Rose cream.
+A soft berry touch for every tab.
