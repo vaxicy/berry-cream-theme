@@ -109,7 +109,7 @@ berry-cream-theme/
 ├─ scripts/
 │  ├─ generate-logo.py           # Draws the 128×128 mark
 │  ├─ generate-store-assets.py   # Renders screenshots and promo tiles
-│  ├─ package.ps1                # Builds the release ZIPs
+│  ├─ package.ps1                # Builds the release ZIP
 │  └─ requirements.txt
 └─ store-assets/
    ├─ screenshots/en/            # 2 × 1280×800 store screenshots
@@ -137,12 +137,9 @@ python scripts/generate-store-assets.py
 powershell -ExecutionPolicy Bypass -File scripts/package.ps1
 ```
 
-The script writes two archives into the default folder `D:\迅雷下载\vibe coding`:
+The script writes one archive into the default folder `D:\迅雷下载\vibe coding`: `berry-cream-theme-1.0.0.zip`, with `manifest.json` at the archive root. The same file serves both purposes — **Load unpacked** locally and the Chrome Web Store upload form; screenshots and promo tiles are uploaded separately in the listing form.
 
-- `berry-cream-theme-1.0.0.zip` — the full project bundle, with `manifest.json` at the archive root, ready for **Load unpacked**.
-- `berry-cream-theme-1.0.0-upload.zip` — `manifest.json` plus `logo/logo128.png` only, for the Chrome Web Store upload form.
-
-Both archives are validated before the script exits: the manifest must sit at the archive root, every icon referenced by the manifest must be present, and no `.git`, `.codebuddy`, `__pycache__`, `.pak` or nested `.zip` entries may slip in. Pass `-Force` to overwrite existing archives of the same version, or `-OutputDirectory` to write somewhere else.
+The archive is validated before the script exits: the manifest must sit at the archive root, every icon referenced by the manifest must be present, and no `.git`, `.codebuddy`, `__pycache__`, `.pak`, `.crx` or nested `.zip` entries may slip in. Pass `-Force` to overwrite an existing archive of the same version, or `-OutputDirectory` to write somewhere else.
 
 ## License
 
